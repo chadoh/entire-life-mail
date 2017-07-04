@@ -1,0 +1,34 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-family="sans-serif" font-size="16px">
+          <p>Hi {{ name }}!</p>
+
+          <p>{{ years_ago_years }} ago, you added the {{ add_on_name }} add-on to your Entire.Life calendar! Thank
+          you so much for supporting us, and we hope you have enjoyed it as much as we
+          enjoy ours. If you haven't checked in on it in a while, this {{ years_ago }} year
+          anniversary might be a good time. 😄</p>
+
+          <p>As it is a yearly subscription, you will be charged $5 again on {{ charged_on_day_of_week }}. We hope
+          you're still happy to support us, and that this hasn't caught you at an
+          inopportune moment. If you need to avoid this charge, you can remove the add-on
+          at <a href="https://entire.life/emporium">https://entire.life/emporium</a> (you'll need to sign in). </p>
+
+          <p>The card that our payment provider, Stripe, has on file for you ends with <b>{{ last4 }}</b>.
+          If that's correct, great! If not, to successfully help fund Entire.Life and to
+          avoid interruption in your enjoyment of this add-on, please update you billing
+          info: <a href"https://entire.life/payment">https://entire.life/payment</a> (again, you'll need to sign in).</p>
+
+          <p>To find out more about how Entire.Life is doing financially, check out
+          <a href="http://stats.entire.life/#money">http://stats.entire.life/#money</a></p>
+
+          <p>Thanks for all of your feedback and support for Entire.Life! Your enthusiasm
+          means at least as much to us as your money. If you ever want to give us ideas
+          of ways to make Entire.Life better, just reply to one of these emails or hit us
+          up on <a href="https://twitter.com/yourentirelife">Twitter</a> or <a href="https://www.facebook.com/yourentirelife">Facebook</a>. We love hearing from you.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
