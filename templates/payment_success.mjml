@@ -1,0 +1,17 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-family="sans-serif" font-size="16px">
+          <p>Hi {{ name }}!</p>
+
+          <p>Our payment provider, Stripe, just let us know that your card ending in {{ last4 }} was successfully charged ${{ amount }} to add or renew the {{ add_on_name }} add-on for the next year.</p>
+
+          <p>Thank you so much for supporting Entire.Life! To find out how we're doing financially, check out <a href="http://stats.entire.life/#money">http://stats.entire.life/#money</a></p>
+
+          <p>Thanks for all of your feedback and support! Your enthusiasm means at least as much to us as your money. If you ever want to give us ideas of ways to make Entire.Life better, just reply to one of these emails or hit us up on up on <a href="https://twitter.com/yourentirelife">Twitter</a> or <a href="https://www.facebook.com/yourentirelife">Facebook</a>. We love hearing from you.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
