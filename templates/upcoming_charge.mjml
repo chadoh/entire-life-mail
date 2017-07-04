@@ -5,12 +5,12 @@
         <mj-text font-family="sans-serif" font-size="16px">
           <p>Hi {{ name }}!</p>
 
-          <p>{{ years_ago_years }} ago, you added the {{ add_on_name }} add-on to your Entire.Life calendar! Thank
-          you so much for supporting us, and we hope you have enjoyed it as much as we
-          enjoy ours. If you haven't checked in on it in a while, this {{ years_ago }} year
-          anniversary might be a good time. 😄</p>
+          <p>Almost {{ years_with_word }} ago, you added the {{ add_on_name }} add-on to your Entire.Life calendar! Thank
+          you so much for supporting us{{#has_ui}}, and we hope you have enjoyed it as much as we
+          enjoy ours. If you haven't checked in on it in a while, this {{ ../years }} year
+          anniversary might be a good time{{/has_ui}}. 😄</p>
 
-          <p>As it is a yearly subscription, you will be charged $5 again on {{ charged_on_day_of_week }}. We hope
+          <p>As it is a yearly subscription, you will be charged ${{ amount }} again on {{ charged_on_day_of_week }}. We hope
           you're still happy to support us, and that this hasn't caught you at an
           inopportune moment. If you need to avoid this charge, you can remove the add-on
           at <a href="https://entire.life/emporium">https://entire.life/emporium</a> (you'll need to sign in). </p>
