@@ -6,7 +6,14 @@
   "repository": "github.com/chadoh/entire-life-mail",
   "author": "Chad Ostrowski <hi@chadoh.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"yarn watch\" \"yarn server\"",
+    "watch": "for f in templates/*.mjml; do mjml --watch $f -o $(echo $f | sed 's/templates/build/' | sed 's/.mjml/.html/'); done",
+    "server": "http-server ./build"
+  },
   "devDependencies": {
+    "concurrently": "^3.5.0",
+    "http-server": "^0.10.0",
     "mjml": "^3.3.3"
   }
 }
