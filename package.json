@@ -1,0 +1,9 @@
+{
+  "name": "entire-life-mail",
+  "version": "1.0.0",
+  "description": "Email templates for Entire.Life. Output to be copied into templates in Postmark; this repository for source control.",
+  "main": "index.js",
+  "repository": "github.com/chadoh/entire-life-mail",
+  "author": "Chad Ostrowski <hi@chadoh.com>",
+  "license": "MIT"
+}
