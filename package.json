@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "github.com/chadoh/entire-life-mail",
   "author": "Chad Ostrowski <hi@chadoh.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mjml": "^3.3.3"
+  }
 }
