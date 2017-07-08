@@ -5,13 +5,13 @@
         <mj-text font-family="sans-serif" font-size="16px">
           <p>Hi {{ name }}!</p>
 
-          <p>⏰ We're about to renew your {{ add_on_name }} add-on.{{#has_ui}} Haven't checked on it in a while? <a href="{{../url}}">Check it</a>.{{/has_ui}}</p>
+          <p>⏰ We're about to renew your {{ add_on_name }} add-on.{{#has_ui}}<br/>Haven't checked on it in a while? <a href="{{../url}}">Check it</a>{{/has_ui}}</p>
 
-          <p>💸 You'll be charged ${{ amount }} on {{ charged_on_day_of_week }}. Thank you! (Bad time for that? <a href="https://entire.life/emporium">Remove the add-on</a>. 😢)</p>
+          <p>💸 You'll be charged ${{ amount }} on {{ charged_on_day_of_week }}. Thank you!<br/>(Bad time for that? <a href="https://entire.life/emporium">Remove the add-on</a> 😢)</p>
 
-          <p>💳 Card on file: <b>...{{ last4 }}</b>. Incorrect? 👉 <a href="https://entire.life/payment">Update it</a>.</p>
+          <p>💳 Card on file: <b>...{{ last4 }}</b>. Incorrect? 👉 <a href="https://entire.life/payment">Update it</a></p>
 
-          <p>🤑 How is Entire.Life is doing financially? <a href="http://stats.entire.life/#money">Find out</a>.</p>
+          <p>🤑 How is Entire.Life is doing financially? <a href="http://stats.entire.life/#money">Find out</a></p>
 
           <p>❤️ Thanks for all of your feedback and support for Entire.Life! Your enthusiasm
           means at least as much to us as your money. If you ever want to give us ideas
