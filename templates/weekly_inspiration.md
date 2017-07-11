@@ -12,9 +12,7 @@ Weeks lived so far: {{completed_weeks_count}}
 {{#each .}}
 {{emoji}} {{title}} → {{url}}
 {{/each}}
-{{/expired_plans}}Did anything {{#expired_plans}}else {{/expired_plans}}noteworthy happen this past week?
-Or, perhaps, anything that seems like the start of something new?
-Add it to your calendar → {{last_week_url}}
+{{/expired_plans}}What happened last week? Add it to your calendar → {{last_week_url}}
 
 
 
