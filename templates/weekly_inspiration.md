@@ -3,8 +3,8 @@
 Hey {{name}}! Welcome to Week {{week_of_year}} of Year {{age}}.
 
 A fresh new week! {{percent_done}}% through your {{age_ordinal}} trip around the sun.{{#is_birthday}} (Happy birthday!){{/is_birthday}}
-You've now lived through {{completed_weeks_count}} weeks total,
-and where you go from here is up to you.
+
+Weeks lived so far: {{completed_weeks_count}}
 {{#extra}}{{#each .}}
 {{.}}
 {{/each}}{{/extra}}
