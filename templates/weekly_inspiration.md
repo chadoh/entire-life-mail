@@ -16,24 +16,16 @@ Weeks lived so far: {{completed_weeks_count}}
 
 
 
-Week {{next_week}}:
+{{#events}}Week {{../next_week}}:
 
-{{#events}}This coming week, {{../next_week_range}}, marks the anniversary of some things for you:
+This week marks the anniversary of:
 {{#each .}}
 {{emoji}} {{title}} – {{time_ago}} → {{url}}
 {{/each}}
-Did anything else happen from {{../next_week_range}} in past
-years of your life? All of it, the good and the bad, is what makes you
-who you are. It's all part of your story.
-{{/events}}{{^ events}}Is it true that you've never experienced anything significant from
-{{../next_week_range}}? Whether happy or heavy, all of our
-experiences shape who we are. Adding past events to your life calendar
-will help you spot the storylines (or the need for better storylines) in
-your life. It will give the present context and make life richer.
-{{/events}}Add past events to your calendar → {{calendar_url}}
 
 
-And Beyond:
+
+{{/events}}And Beyond:
 {{#plans}}{{#each .}}
 {{emoji}} {{title}} – {{time_from_now}} → {{url}}
 {{/each}}
