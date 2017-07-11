@@ -25,16 +25,10 @@ This week marks the anniversary of:
 
 
 
-{{/events}}And Beyond:
+{{/events}}What you might do next:
 {{#plans}}{{#each .}}
 {{emoji}} {{title}} – {{time_from_now}} → {{url}}
-{{/each}}
-Do you have any other hopes, dreams, or goals?{{/plans}}{{^ plans}}
-What are your hopes, your dreams, your goals?{{/plans}}
-Dream big and then get specific—challenge yourself to reach
-those dreams by a set date. You'll be amazed at how much
-you can accomplish!
-
+{{/each}}{{/plans}}
 Plan An Awesome Future → {{calendar_url}}
 
 
