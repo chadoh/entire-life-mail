@@ -12,7 +12,7 @@ Here's what you planned to do by now:
 {{#each .}}
 {{emoji}} {{title}} → {{url}}
 {{/each}}
-{{/expired_plans}}What happened last week? Add it to your calendar → {{last_week_url}}
+{{/expired_plans}}What happened last week? Add it to your chart → {{last_week_url}}
 
 
 
