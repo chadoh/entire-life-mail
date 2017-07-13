@@ -7,13 +7,14 @@ A fresh new week! {{percent_done}}% through your {{age_ordinal}} trip around the
 Weeks lived so far: {{completed_weeks_count}}
 {{#extra}}{{#each .}}{{.}}
 {{/each}}{{/extra}}
+What happened last week? Add it to your chart → {{last_week_url}}
+
 {{#expired_plans}}
 Here's what you planned to do by now:
 {{#each .}}
 {{emoji}} {{title}} → {{url}}
 {{/each}}
-{{/expired_plans}}What happened last week? Add it to your chart → {{last_week_url}}
-
+{{/expired_plans}}
 
 
 {{#events}}Week {{../next_week}}:
