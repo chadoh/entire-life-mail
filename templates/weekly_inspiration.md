@@ -5,10 +5,10 @@ Hey {{name}}! Welcome to Week {{week_of_year}} of Year {{age}}.
 A fresh new week! {{percent_done}}% through your {{age_ordinal}} trip around the sun.{{#is_birthday}} (Happy birthday!){{/is_birthday}}
 
 Weeks lived so far: {{completed_weeks_count}}
-{{#extra}}{{#each .}}
-{{.}}
+{{#extra}}{{#each .}}{{.}}
 {{/each}}{{/extra}}
-{{#expired_plans}}Here's what you planned to do by now:
+{{#expired_plans}}
+Here's what you planned to do by now:
 {{#each .}}
 {{emoji}} {{title}} → {{url}}
 {{/each}}
