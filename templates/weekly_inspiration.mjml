@@ -59,7 +59,7 @@
             Welcome to Week {{week_of_year}} of Year {{age}}
           </mj-text>
           <mj-text align="center">
-            {{percent_done}}% through your {{nth_trip_around_the_sun}} trip around the sun.{{#is_birthday}} (Happy birthday!){{/is_birthday}}
+            {{percent_done}}% through your {{nth_trip_around_sun}} trip around the sun.{{#is_birthday}} (Happy birthday!){{/is_birthday}}
             <p>
               Weeks lived so far: {{completed_weeks_count}}
               {{#extra}}{{#each .}}<br/>{{.}}{{/each}}{{/extra}}
