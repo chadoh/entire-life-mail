@@ -91,7 +91,7 @@
         <mj-section background-color="#f8f8f8" padding-bottom="0">
           <mj-column>
             <mj-text font-size="24">
-              Week {{next_week}}
+              Week {{../next_week}}
             </mj-text>
             <mj-text>
               <p>This week marks the anniversary of:</p>
